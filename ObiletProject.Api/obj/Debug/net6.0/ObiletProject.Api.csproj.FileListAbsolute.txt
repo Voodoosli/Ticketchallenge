@@ -1,0 +1,15 @@
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ObiletProject.Api.csproj.AssemblyReference.cache
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ObiletProject.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ObiletProject.Api.AssemblyInfoInputs.cache
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ObiletProject.Api.AssemblyInfo.cs
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ObiletProject.Api.csproj.CoreCompileInputs.cache
+D:\kisisel\ChallengeObilet\ObiletProject.Api\bin\Debug\net6.0\ObiletProject.Api.deps.json
+D:\kisisel\ChallengeObilet\ObiletProject.Api\bin\Debug\net6.0\ObiletProject.Api.dll
+D:\kisisel\ChallengeObilet\ObiletProject.Api\bin\Debug\net6.0\ObiletProject.Api.pdb
+D:\kisisel\ChallengeObilet\ObiletProject.Api\bin\Debug\net6.0\ObiletProject.Model.dll
+D:\kisisel\ChallengeObilet\ObiletProject.Api\bin\Debug\net6.0\ObiletProject.Model.pdb
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ObiletProject.Api.csproj.CopyComplete
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ObiletProject.Api.dll
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\refint\ObiletProject.Api.dll
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ObiletProject.Api.pdb
+D:\kisisel\ChallengeObilet\ObiletProject.Api\obj\Debug\net6.0\ref\ObiletProject.Api.dll

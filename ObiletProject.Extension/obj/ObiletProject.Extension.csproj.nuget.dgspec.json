@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\kisisel\\ChallengeObilet\\ObiletProject.Extension\\ObiletProject.Extension.csproj": {}
+  },
+  "projects": {
+    "D:\\kisisel\\ChallengeObilet\\ObiletProject.Api\\ObiletProject.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Api\\ObiletProject.Api.csproj",
+        "projectName": "ObiletProject.Api",
+        "projectPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Api\\ObiletProject.Api.csproj",
+        "packagesPath": "C:\\Users\\AhmetUnal\\.nuget\\packages\\",
+        "outputPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmetUnal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\kisisel\\ChallengeObilet\\ObiletProject.Model\\ObiletProject.Model.csproj": {
+                "projectPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Model\\ObiletProject.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\kisisel\\ChallengeObilet\\ObiletProject.Extension\\ObiletProject.Extension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Extension\\ObiletProject.Extension.csproj",
+        "projectName": "ObiletProject.Extension",
+        "projectPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Extension\\ObiletProject.Extension.csproj",
+        "packagesPath": "C:\\Users\\AhmetUnal\\.nuget\\packages\\",
+        "outputPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Extension\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmetUnal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\kisisel\\ChallengeObilet\\ObiletProject.Api\\ObiletProject.Api.csproj": {
+                "projectPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Api\\ObiletProject.Api.csproj"
+              },
+              "D:\\kisisel\\ChallengeObilet\\ObiletProject.Model\\ObiletProject.Model.csproj": {
+                "projectPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Model\\ObiletProject.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\kisisel\\ChallengeObilet\\ObiletProject.Model\\ObiletProject.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Model\\ObiletProject.Model.csproj",
+        "projectName": "ObiletProject.Model",
+        "projectPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Model\\ObiletProject.Model.csproj",
+        "packagesPath": "C:\\Users\\AhmetUnal\\.nuget\\packages\\",
+        "outputPath": "D:\\kisisel\\ChallengeObilet\\ObiletProject.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AhmetUnal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

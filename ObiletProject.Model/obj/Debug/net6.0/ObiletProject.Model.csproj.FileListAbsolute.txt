@@ -1,0 +1,12 @@
+D:\kisisel\ChallengeObilet\ObiletProject.Model\bin\Debug\net6.0\ObiletProject.Model.deps.json
+D:\kisisel\ChallengeObilet\ObiletProject.Model\bin\Debug\net6.0\ObiletProject.Model.dll
+D:\kisisel\ChallengeObilet\ObiletProject.Model\bin\Debug\net6.0\ObiletProject.Model.pdb
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\ObiletProject.Model.csproj.AssemblyReference.cache
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\ObiletProject.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\ObiletProject.Model.AssemblyInfoInputs.cache
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\ObiletProject.Model.AssemblyInfo.cs
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\ObiletProject.Model.csproj.CoreCompileInputs.cache
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\ObiletProject.Model.dll
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\refint\ObiletProject.Model.dll
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\ObiletProject.Model.pdb
+D:\kisisel\ChallengeObilet\ObiletProject.Model\obj\Debug\net6.0\ref\ObiletProject.Model.dll

@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Bilet Bul";
+}
+
+@section PageCss {
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+}
+
+@section header {
+    <div class="ob-header">
+        <h2>@ViewData["Title"]</h2>
+    </div>
+}
+
+
+
+
+
+<div class="ob-input-group">
+
+    <button class="btn ob-dd-findd  ob-dd-Color  dropdown-toggle" type="button" id="dd_fromwhere" data-bs-toggle="dropdown" aria-expanded="false">
+        <label for="from">Nereden</label>
+        <span id="fromwhere">Seçenekler</span>
+    </button>
+    <ul class="dropdown-menu ob-dropdown-menu dropdownfromwhere " aria-labelledby="dd_fromwhere">
+
+        <li>
+            <input type="text" class="form-control " id="fdropdownSearch" placeholder="Ara...">
+        </li> 
+    </ul>
+</div>
+<div class="ob-input-group">
+    <div class="swap-button" >
+        <i class="fa-solid fa-right-left" data-changed="false" onclick="setLocationSwap();"></i>
+    </div>
+</div>
+
+<div class="ob-input-group">
+
+    <button class="btn ob-dd-findd  ob-dd-Color  dropdown-toggle" type="button" id="dd_towhere" data-bs-toggle="dropdown" aria-expanded="false">
+        <label for="to">Nereye</label>
+
+        <span id="towhere">Seçenekler</span>
+    </button>
+    <ul class="dropdown-menu ob-dropdown-menu dropdowntowhere" aria-labelledby="dd_towhere">
+
+        <li>
+            <input type="text" class="form-control" id="tdropdownSearch" placeholder="Ara...">
+        </li> 
+    </ul>
+</div>
+
+
+<div class="ob-input-group">
+    <label for="ob-date">Tarih</label>
+    <input id="dpdate" data-provide="datepicker" data-date-format="dd-mm-yyyy" startDate="new Date()">
+    @*  <input type="text" id="date" value="1 Nisan 2018 Pazar" readonly> *@
+    <div class="ob-date-buttons">
+        <button class="todatbtn">Bugün</button>
+        <button class="tomorrowbtn">Yarın</button>
+    </div>
+</div>
+<button class="ob-btn-find" onclick="NavigateToJourney();">Bilet Bul</button>
+
+
+@section Footer {
+    <div>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+    </div>
+}
+@section Scripts {
+    <script src="~/js/index.js"></script>
+    @{
+        var originid = ViewBag.originid;
+        var destinationid = ViewBag.destinationid;
+        var date = ViewBag.date;
+    }
+
+    @if (originid != null && destinationid != null)
+    {
+        <script>
+            setLocationCookie('@Html.Raw(originid )', '@Html.Raw(destinationid )', '@Html.Raw(date )');
+        </script>
+    }
+    else
+    {
+        <script>
+            $(function () {
+                setTimeout(function () {
+                    setLocationDefault();
+
+                }, 1000);
+
+            }); 
+        </script>
+    } 
+}

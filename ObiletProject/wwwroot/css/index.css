@@ -1,0 +1,98 @@
+﻿
+.ob-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ob-input-group {
+    margin: 20px 0;
+}
+    .ob-input-group .dropdown-menu {
+        inset: -74px auto auto -1px !important;
+        padding: 0px;
+    }
+
+    .ob-input-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #2F4EB4;
+    }
+
+    .ob-input-group input, .ob-input-group select {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+.ob-date-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px;
+}
+
+    .ob-date-buttons button {
+        width: 48%;
+        padding: 10px;
+        background-color: #ccc;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.ob-btn-find {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3a589c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  
+}
+.ob-dropdown-menu {
+    width: 460px;
+}
+
+.ob-dd-findd {
+    display: block;
+    width: 100%;
+    padding: 10px; 
+    text-align: left; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.ob-dd-Color {
+    color: black;
+    background-color: white;
+}
+
+.swap-button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d1d1d1;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 18px;
+}
+
+    .swap-button i {
+        color: #757575;
+     
+        left: 6px;
+        position: absolute;
+        top: 6px;
+    }

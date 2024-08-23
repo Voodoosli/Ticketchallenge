@@ -1,0 +1,45 @@
+﻿@model List< ObiletProject.Model.Models.GetJourneys.Journey>;
+
+@section PageCss {
+    <link rel="stylesheet" href="~/css/journey.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+}
+
+@section header {
+
+    <div class="ob-header">
+        <div class="ob-back-icondiv">
+            <i class="fas fa-arrow-left ob-back-icon " onclick="window.history.back();"></i>
+        </div>
+       
+        @ViewData["origin"] - @ViewData["destination"]
+    </div>
+    <div class="ob-date">@Convert.ToDateTime( ViewData["date"]).ToString("dd MMMM yyyy dddd")</div>
+}
+
+
+
+@foreach (var journey in Model)
+{
+    <div class="ob-trip">
+        <div class="ob-trip-details">
+            <span class="ob-trip-Label">KALKIŞ &nbsp;&nbsp;&nbsp; VARIŞ</span>
+            @{
+                var journeytime = journey.stops.Where(x => x.isorigin == true || x.isdestination == true).ToList();
+                var oricintime = Convert.ToDateTime(journeytime.FirstOrDefault(x => x.isorigin == true).time).ToString("HH:mm");
+                var destinationtime = Convert.ToDateTime(journeytime.FirstOrDefault(x => x.isdestination == true).time).ToString("HH:mm");
+                var originlocation = journeytime.FirstOrDefault(x => x.isorigin == true).name;
+                var destinationlocation = journeytime.FirstOrDefault(x => x.isdestination == true).name;
+            }
+            <span class="ob-trip-time">@oricintime &rarr; @destinationtime</span>
+            <span class="ob-trip-location">@originlocation - @destinationlocation</span>
+        </div>
+        <div class="ob-trip-price">@journey.internetprice TL</div>
+    </div>
+
+}
+
+
+
+
+

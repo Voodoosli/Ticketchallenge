@@ -1,0 +1,84 @@
+﻿
+
+
+.ob-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ob-header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ob-date {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.ob-trip {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+    .ob-trip:last-child {
+        border-bottom: none;
+    }
+
+.ob-trip-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.ob-trip-time {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ob-trip-location {
+    font-size: 14px;
+    color: #666;
+}
+
+.ob-trip-price {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.ob-trip-Label {
+    font-size: 14px;
+    color: #2F4EB4;
+}
+
+
+.ob-back-icon {
+    position: absolute;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    margin: 23px 25px 27px;
+}
+
+.ob-back-icondiv {
+    text-align: left;
+}

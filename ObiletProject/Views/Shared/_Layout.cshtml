@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> - ObiletProject</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/css/bootstrap-datepicker.min.css" />
+  @*   <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/css/obiletproject.css" asp-append-version="true" />
+
+    @RenderSection("PageCss", false)
+   
+</head>
+
+
+<body>
+    
+    <div class="ob-container">
+        @RenderSection("header", false)
+       
+        <div class="ob-container-body">
+            @RenderBody() 
+
+            <div class="ob-footer">
+                @RenderSection("Footer", false)
+            </div>
+        </div>
+        
+    </div>
+
+   
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+   <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/js/bootstrap-datepicker.min.js"></script>
+    @*  <script src="~/js/site.js" asp-append-version="true"></script> *@
+    @await RenderSectionAsync("Scripts", required: false)
+
+    @{
+       
+        if (TempData["error"] != null)
+        {
+            <script>
+                alert("@Html.Raw(TempData["error"].ToString())");
+            </script>
+        } 
+    }
+
+</body>
+</html>
